@@ -1,0 +1,11 @@
+sudo: false
+language: elixir
+otp_release:
+- 17.4
+deploy:
+  provider: heroku
+  api_key:
+    secure: X03MPbKc3+ZoxozqSmjUz45l8Y1IDYB1r1rg0VgM1FlwA0AWYpXzI2l1YiJyCHhJLOL0y8mZPr+ufs5TNQNNbQk0XqIPr+Dz1zm5Bm49rV7m2qTRZr7lUUItrWqK1dWbPsM2c1vfS8PCsDEDwXEVO9J+jhZEcXMNU8R9SWgmd3wIvFOOKN3LP54YlewK5OiWok0ltWqoQRn5ybgOSpK0xzdvR4t4WGsjtZzujx502VjcWhLPxK3bX0oIRN8yt7cQnnBhsCp9d7BCKAqzXmx6p5jVn799UbBGheZOyIy7bJAKyQmQ5h1tSO1SMiFG8+Eo6F4BR7vXwem6DnyC5eytkinN9HHtNq5u+QvktE8+aYtv35B8pwPkHJG50/JGBcPhcXcaOPEEl6KyhETF6xRmZL+4GwMho/HO270NtPG8br8r8aVeyhdXkJ0F1d97mgEctRDWHBwuWKa24Oa18/u2fvfO/dZoKozDV49WPfnx5DkfLi2sT/5i4xc86JbGxS4KRJTyZPpzNWKoNUwZ95pT8h5eSRUOXjwcCzoFUb28+InJsdiMGbiQYov7kqKAv2fXIKwMy2bm6zPkOHLAHSnek8Yn1V9FHIiSV1LjK7zwqQ8YGd3aTSxHCv6d5tJY/98BkxxJwWJ4F/pYYNmdjadbJm+2pTmySFRG3LOcr3GUnzI=
+  app: elixir-api
+  on:
+    repo: KamilLelonek/elixir-api
