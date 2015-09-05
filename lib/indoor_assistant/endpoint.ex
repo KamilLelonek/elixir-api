@@ -1,8 +1,6 @@
 defmodule ElixirApi.Endpoint do
   use Phoenix.Endpoint, otp_app: :elixir_api
 
-  socket "/socket", ElixirApi.UserSocket
-
   if code_reloading? do
     socket "/phoenix/live_reload/socket", Phoenix.LiveReloader.Socket
     plug Phoenix.LiveReloader
